@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/karima2_level1.unity
+    guid: c417cbacba270684fbb6b1cbf8aed294
+  - enabled: 1
+    path: Assets/Scenes/karima_fll.unity
+    guid: fd5b7c46c25d84c448ba52f83b094eae
+  m_configObjects: {}
