@@ -76,6 +76,8 @@ GameObject:
   - component: {fileID: 6407588568362479172}
   - component: {fileID: 6407588568362479195}
   - component: {fileID: 6407588568362479174}
+  - component: {fileID: 8344537574483712536}
+  - component: {fileID: 8626239287769176132}
   m_Layer: 6
   m_Name: SnowBallFightArt_12 2
   m_TagString: ground
@@ -215,6 +217,34 @@ MonoBehaviour:
   posA: {fileID: 6407588567987497928}
   posB: {fileID: 6407588569698320132}
   speed: 4
+--- !u!114 &8344537574483712536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6407588568362479168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 801b81d51fc9e11478ee9f2a11b44612, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  border: []
+  speed: 3
+--- !u!114 &8626239287769176132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6407588568362479168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 801b81d51fc9e11478ee9f2a11b44612, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  border: []
+  speed: 3
 --- !u!1 &6407588569698320133
 GameObject:
   m_ObjectHideFlags: 0

@@ -24,16 +24,16 @@ public class transform_player : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
 
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.name == "Player")
         {
-            collision.transform.SetParent(this.transform);
+            collision.transform.SetParent(transform);
         }
       
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    private void OnTriggerExit2D (Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.name == "Player")
         {
             collision.transform.SetParent(null);
         }
