@@ -153,6 +153,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -243,6 +244,42 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
     maxTextureSize: 128
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1169,6 +1206,50 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      SnowBallFightArt_0: -5616181611550963903
+      SnowBallFightArt_1: 8410383728812101980
+      SnowBallFightArt_10: 5438750027729314572
+      SnowBallFightArt_11: -3804394586739354842
+      SnowBallFightArt_12: 3487636734490038778
+      SnowBallFightArt_13: -752717849006444558
+      SnowBallFightArt_14: -3496377371475464851
+      SnowBallFightArt_15: -5051191170572551965
+      SnowBallFightArt_16: 3461363533343786476
+      SnowBallFightArt_17: 5554083653341502905
+      SnowBallFightArt_18: -78199266225850707
+      SnowBallFightArt_19: -6512965397925986933
+      SnowBallFightArt_2: 2189902547177533189
+      SnowBallFightArt_20: -7497023930682984997
+      SnowBallFightArt_21: -7430803574016729933
+      SnowBallFightArt_22: -1225655663949962518
+      SnowBallFightArt_23: 7646236522352542417
+      SnowBallFightArt_24: 3159500959732966459
+      SnowBallFightArt_25: 1704826458765348159
+      SnowBallFightArt_26: 1697636328347496423
+      SnowBallFightArt_27: -678434154746192728
+      SnowBallFightArt_28: 674564033665750857
+      SnowBallFightArt_29: 1361126021114856944
+      SnowBallFightArt_3: -6457561701128868295
+      SnowBallFightArt_30: -1978522802879091300
+      SnowBallFightArt_31: 5849482249099806
+      SnowBallFightArt_32: 3951080835220797908
+      SnowBallFightArt_33: -38757932716005546
+      SnowBallFightArt_34: -4730949409416177685
+      SnowBallFightArt_35: -4634602674961922373
+      SnowBallFightArt_36: -733523222829731296
+      SnowBallFightArt_37: 7054252310715797505
+      SnowBallFightArt_38: 2882230716781714321
+      SnowBallFightArt_39: 1188373452525049108
+      SnowBallFightArt_4: -6450427250629661380
+      SnowBallFightArt_40: 5702238651474176844
+      SnowBallFightArt_41: -2453369944082944407
+      SnowBallFightArt_42: -7021709826601348734
+      SnowBallFightArt_5: 6912056805517127300
+      SnowBallFightArt_6: 1986367637984178680
+      SnowBallFightArt_7: 7826146234252340420
+      SnowBallFightArt_8: 7874124496836714052
+      SnowBallFightArt_9: 7887864160095873139
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
