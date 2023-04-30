@@ -25,6 +25,7 @@ public class EnemyBulletBehaviour : MonoBehaviour
     {
         if (collision.tag == "Player" )
         {
+            Destroy(collision.gameObject);
             Destroy(gameObject);
         }
         if (collision.tag == "PlayerBullet" )
